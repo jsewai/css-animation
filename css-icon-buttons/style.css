@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+}
+.container{
+    height: 100%;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+}
+
+.button{
+    width: 100px;
+    height: 100px;
+}
