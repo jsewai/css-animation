@@ -2,13 +2,45 @@
     margin: 0;
 }
 .container{
-    height: 100%;
-    background-color: aqua;
+    height: 100vh;
     display: flex;
+    align-items: center;
     justify-content: center;
 }
 
 .button{
     width: 100px;
     height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+}
+
+.button img{
+    width: 30%;
+}
+
+.circle{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    border-radius: 50%;
+}
+
+.circle-1{
+    border: 1px solid rgb(134, 134, 212);
+}
+
+.circle-2{
+    width: 60%;
+    height: 60%;
+    border: 1.5px solid rgb(125, 125, 226);
+}
+
+.circle-3{
+    border: 2px dashed black
 }
